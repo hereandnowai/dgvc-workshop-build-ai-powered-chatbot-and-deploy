@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from prompts import AI_TEACHER
 
 load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY")
+api_key = os.getenv("OPENAI_API_KEY")
 base_url="https://generativelanguage.googleapis.com/v1beta/openai"
 
 client = OpenAI(base_url=base_url, api_key=api_key)
