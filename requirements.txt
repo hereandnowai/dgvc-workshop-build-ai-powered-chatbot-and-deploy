@@ -1,4 +1,3 @@
 openai
-streamlit
+gradio
 python-dotenv
-google-generativeai
